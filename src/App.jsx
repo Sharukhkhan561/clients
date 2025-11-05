@@ -17,8 +17,6 @@ const App = () => {
         <Route path='/car-details/:id' element={<CarDetail/>}/>
         <Route path='/cars' element={<Cars/>}/>
         <Route path='/my-bookings' element={<MyBooking/>}/>
-        <Route path='/my-bookings' element={<MyBooking/>}/>
-      </Routes>
       </Routes>
     </div>
   )
