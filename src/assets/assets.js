@@ -40,6 +40,8 @@ import car_image1 from "./car_image1.png"
 import car_image2 from "./car_image2.png"
 import car_image3 from "./car_image3.png"
 import car_image4 from "./car_image4.png"
+import car_image5 from "./car_image5.jpg"
+import car_image6 from "./car_image6.jpg"
 
 export const cityList = ['Delhi', 'Mumbai', 'Banglore', 'Noida']
 
@@ -177,6 +179,40 @@ export const dummyCarData = [
         "description": "This is a mid-size luxury sedan produced by Toyota. The Corolla made its debut in 2008 as the first sedan ever produced by Toyota.",
         "isAvaliable": true,
         "createdAt": "2025-04-17T06:15:47.318Z",
+    },
+    {
+        "_id": "68009c93a3f5fc6338ea7e35",
+        "owner": "67fe3467ed8a8fe17d0ba6e2",
+        "brand": "Range Rover",
+        "model": "Defender",
+        "image": car_image5,
+        "year": 2024,
+        "category": "SUV",
+        "seating_capacity": 5,
+        "fuel_type": "Petrol",
+        "transmission": "Automatic",
+        "pricePerDay": 15000,
+        "location": "Delhi",
+        "description": "This is a  luxury suv produced by Range Rover.",
+        "isAvaliable": true,
+        "createdAt": "2025-04-18T06:17:00.318Z",
+    },
+    {
+        "_id": "68009c93a3f5fc6338ea7e36",
+        "owner": "67fe3467ed8a8fe17d0ba6e2",
+        "brand": "Mercedes",
+        "model": "S-Class",
+        "image": car_image6,
+        "year": 2025,
+        "category": "Sedan",
+        "seating_capacity": 5,
+        "fuel_type": "Petrol",
+        "transmission": "Automatic",
+        "pricePerDay": 20000,
+        "location": "Mumbai",
+        "description": "This is a  luxury Sedan produced by Mercedes.",
+        "isAvaliable": true,
+        "createdAt": "2025-04-19T06:17:10.318Z",
     }
 ];
 

@@ -13,6 +13,7 @@ const Cars = () => {
           title="Available Cars"
           subTitle="Browser our selection of premium vehicles available for your next adventure"
         />
+        
         <div className="flex items-center bg-white px-4 mt-6 max-w-140 w-full h-12 rounded-full shadow">
           <img src={assets.search_icon} className="w-4.5 h-4.5 mr-2" alt="" />
 
