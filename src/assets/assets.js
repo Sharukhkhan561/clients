@@ -42,8 +42,11 @@ import car_image3 from "./car_image3.png"
 import car_image4 from "./car_image4.png"
 import car_image5 from "./car_image5.jpg"
 import car_image6 from "./car_image6.jpg"
+import car_image7 from "./car_image7.jpg"
+import car_image8 from "./car_image8.jpg"
+import car_image9 from "./car_image9.jpg"
 
-export const cityList = ['Delhi', 'Mumbai', 'Banglore', 'Noida']
+export const cityList = ['Delhi', 'Mumbai', 'Banglore', 'Noida', 'Hyderabad']
 
 export const assets = {
     logo,
@@ -211,6 +214,57 @@ export const dummyCarData = [
         "pricePerDay": 20000,
         "location": "Mumbai",
         "description": "This is a  luxury Sedan produced by Mercedes.",
+        "isAvaliable": true,
+        "createdAt": "2025-04-19T06:17:10.318Z",
+    },
+    {
+        "_id": "68009c93a3f5fc6338ea7e37",
+        "owner": "67fe3467ed8a8fe17d0ba6e2",
+        "brand": "Rolls Royce",
+        "model": "Phantom",
+        "image": car_image7,
+        "year": 2025,
+        "category": "Sedan",
+        "seating_capacity": 5,
+        "fuel_type": "Petrol",
+        "transmission": "Automatic",
+        "pricePerDay": 30000,
+        "location": "Noida",
+        "description": "This is a  luxury Sedan produced by Rolls Royce.",
+        "isAvaliable": true,
+        "createdAt": "2025-04-19T06:17:10.318Z",
+    },
+    {
+        "_id": "68009c93a3f5fc6338ea7e38",
+        "owner": "67fe3467ed8a8fe17d0ba6e2",
+        "brand": "Lamborgini",
+        "model": "Avantador",
+        "image": car_image8,
+        "year": 2025,
+        "category": "Sports Car",
+        "seating_capacity": 2,
+        "fuel_type": "Petrol",
+        "transmission": "Automatic",
+        "pricePerDay": 25000,
+        "location": "Hyderabad",
+        "description": "This is a luxury Sports Car produced by Lamborgini.",
+        "isAvaliable": true,
+        "createdAt": "2025-04-19T06:17:10.318Z",
+    },
+    {
+        "_id": "68009c93a3f5fc6338ea7e39",
+        "owner": "67fe3467ed8a8fe17d0ba6e2",
+        "brand": "Audi",
+        "model": "RS7",
+        "image": car_image9,
+        "year": 2025,
+        "category": "Sedan",
+        "seating_capacity": 4,
+        "fuel_type": "Petrol",
+        "transmission": "Automatic",
+        "pricePerDay": 20000,
+        "location": "Delhi",
+        "description": "This is a  luxury Sedan produced by Audi.",
         "isAvaliable": true,
         "createdAt": "2025-04-19T06:17:10.318Z",
     }
