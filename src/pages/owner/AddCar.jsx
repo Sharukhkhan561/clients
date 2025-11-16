@@ -63,6 +63,7 @@ e.preventDefault();
           <option value="HatchBack">HatchBack</option>
          </select>
       </div>
+      <div></div>
         </div>
         {/* Car Transmission , fuel type , seating capacity */}
 
