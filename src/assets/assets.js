@@ -108,7 +108,7 @@ export const ownerMenuLinks = [
 
 export const dummyUserData = {
   "_id": "6847f7cab3d8daecdb517095",
-  "name": "GreatStack",
+  "name": "Sharukh",
   "email": "admin@example.com",
   "role": "owner",
   "image": user_profile,
@@ -314,17 +314,72 @@ export const dummyMyBookingsData = [
         "status": "confirmed",
         "price": 440,
         "createdAt": "2025-06-10T09:44:25.410Z",
+    },
+    {
+        "_id": "6847fe790fb481c5cfd92d94",
+        "car": dummyCarData[4],
+        "user": "6847f7cab3d8daecdb517095",
+        "owner": "6847f7cab3d8daecdb517095",
+        "pickupDate": "2025-06-11T00:00:00.000Z",
+        "returnDate": "2025-06-12T00:00:00.000Z",
+        "status": "confirmed",
+        "price": 440,
+        "createdAt": "2025-06-10T09:44:25.410Z",
+    },
+    {
+        "_id": "6847fe790fb481c5cfd92d94",
+        "car": dummyCarData[5],
+        "user": "6847f7cab3d8daecdb517095",
+        "owner": "6847f7cab3d8daecdb517095",
+        "pickupDate": "2025-06-11T00:00:00.000Z",
+        "returnDate": "2025-06-12T00:00:00.000Z",
+        "status": "confirmed",
+        "price": 440,
+        "createdAt": "2025-06-10T09:44:25.410Z",
+    },
+    {
+        "_id": "6847fe790fb481c5cfd92d94",
+        "car": dummyCarData[6],
+        "user": "6847f7cab3d8daecdb517095",
+        "owner": "6847f7cab3d8daecdb517095",
+        "pickupDate": "2025-06-11T00:00:00.000Z",
+        "returnDate": "2025-06-12T00:00:00.000Z",
+        "status": "pending",
+        "price": 440,
+        "createdAt": "2025-06-10T09:44:25.410Z",
+    },
+    {
+        "_id": "6847fe790fb481c5cfd92d94",
+        "car": dummyCarData[7],
+        "user": "6847f7cab3d8daecdb517095",
+        "owner": "6847f7cab3d8daecdb517095",
+        "pickupDate": "2025-06-11T00:00:00.000Z",
+        "returnDate": "2025-06-12T00:00:00.000Z",
+        "status": "pending",
+        "price": 440,
+        "createdAt": "2025-06-10T09:44:25.410Z",
+    },
+    {
+        "_id": "6847fe790fb481c5cfd92d94",
+        "car": dummyCarData[8],
+        "user": "6847f7cab3d8daecdb517095",
+        "owner": "6847f7cab3d8daecdb517095",
+        "pickupDate": "2025-06-11T00:00:00.000Z",
+        "returnDate": "2025-06-12T00:00:00.000Z",
+        "status": "confirmed",
+        "price": 440,
+        "createdAt": "2025-06-10T09:44:25.410Z",
     }
 ]
 
 export const dummyDashboardData = {
-    "totalCars": 4,
-    "totalBookings": 2,
+    "totalCars": 9,
+    "totalBookings": 5,
     "pendingBookings": 0,
-    "completedBookings": 2,
+    "completedBookings": 5,
     "recentBookings": [
         dummyMyBookingsData[0],
         dummyMyBookingsData[1]
     ],
-    "monthlyRevenue": 840
+    "monthlyRevenue": 2650
 }
